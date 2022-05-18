@@ -374,6 +374,7 @@ hr{
 }
 .more-link:hover{
     color: #200C00;
+    
 }
 #lm-2{
     margin: 4rem 0 3rem 0;
@@ -384,7 +385,7 @@ hr{
 
 footer{
     background-color: #0D0402;
-    background-image: url("/coffee-beans.svg") ;
+    background-image: url("coffee-beans.svg") ;
     
 }
 #footer-container{
@@ -425,7 +426,8 @@ footer{
     
 }
 .cat-items a:hover, .info-items a:hover, .foot-con a:hover{
-    color: #200C00;
+    color: #845F44;
+    text-decoration: underline;
 }
 
 #social-2{
