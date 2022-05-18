@@ -305,6 +305,10 @@ hr{
     padding-top: .7rem;
 }
 
+#telephone-link1:hover, #email-link1:hover{
+    color: #845F44;
+}
+
 #social-1{
     display: flex;
     gap: 2rem;
