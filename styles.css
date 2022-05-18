@@ -594,6 +594,9 @@ footer {
     font-size: 30px;
   }
 
+  #sec-1 {
+    height: 76vh;
+  }
   #hero-text h1 {
     font-size: 2rem;
     padding: 0 1rem;
