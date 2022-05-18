@@ -1,7 +1,8 @@
 
 # Coffee Shop Page
 
-This is an coffee shop page, with a unique design, bulit using HTML, CSS and JavaScript.
+This is an coffee shop page landing page, designed by me, bulit using HTML, CSS and JavaScript.
+
 
 
 
