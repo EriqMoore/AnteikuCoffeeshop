@@ -11,7 +11,7 @@ body{
     padding: 0;  
 }
 .top{
-    background-image: url("/coffee-beans.svg");
+    background-image: url("coffee-beans.svg");
     background-repeat: no-repeat;
     background-size: 45rem;
     background-color: #200C00;
@@ -249,7 +249,7 @@ hr{
     color: #200C00;
 }
 #sec-4{
-    background-image: url("/Follow-us-bg.png");
+    background-image: url("Follow-us-bg.png");
     background-repeat: no-repeat;
     min-height: 75vh;
 }
@@ -521,7 +521,7 @@ text-shadow:(10px 5px 4px black);
             
         }
         #sec-4{
-            background-image: url("/Follow-us-bg.png");
+            background-image: url("Follow-us-bg.png");
             background-repeat: no-repeat;
             min-height: 50vh;
         }
