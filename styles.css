@@ -377,7 +377,7 @@ footer {
   gap: 10rem;
   padding: 1.5rem;
 }
-#footer-container h5 {
+#footer-container h4 {
   font-weight: bold;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -657,7 +657,7 @@ footer {
     padding-top: 0.5rem;
   }
 
-  #footer-container h5 {
+  #footer-container h4 {
     font-size: 0.9rem;
   }
 
@@ -698,7 +698,7 @@ footer {
     border: 1px solid black;
     width: 10rem;
   }
-  #footer-container h5 {
+  #footer-container h4 {
     font-size: 0.8rem;
   }
 
