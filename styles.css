@@ -491,9 +491,9 @@ footer {
     flex-direction: column;
   }
   #sec-4 {
-    background-image: url("Follow-us-bg.png");
-    background-repeat: no-repeat;
     min-height: 50vh;
+    
+   
   }
   .coffee-img-container img {
     width: 12rem;
