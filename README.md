@@ -1,4 +1,4 @@
-# AnteikuCoffeeshop
+# AnteikuCoffee Shop
 
 This is an coffee shop landing page, designed by me, bulit using HTML, CSS and JavaScript.
 
