@@ -1,6 +1,6 @@
 # Anteiku Coffee Shop
 
-This is an coffee shop landing page, designed by me, bulit using HTML, CSS and JavaScript.
+This is a coffee shop landing page, designed by me, built using HTML, CSS, and JavaScript.
 
 # Reason For Building
 
