@@ -235,7 +235,7 @@ hr {
   color: #200c00;
 }
 #sec-4 {
-  background-image: url("/images/Follow-us-bg.jpeg");
+  background-image: url("../images/Follow-us.jpeg");
   background-repeat: no-repeat;
   min-height: 75vh;
   box-shadow: 0px 5px 5px black;
