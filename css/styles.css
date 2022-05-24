@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 .top {
-  background-image: url("/images/coffee-beans.svg");
+  background-image: url("../images/coffee-beans.svg");
   background-repeat: no-repeat;
   background-size: 45rem;
   background-color: #200c00;
