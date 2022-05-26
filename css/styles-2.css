@@ -17,19 +17,23 @@ a {
   }
   
   header {
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: #200c00;
-    background-image: url("../images/coffee-beans.svg");
-    
+    background-image: url("/images/coffee-beans.svg");
   }
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  .r-title{
+    padding-left:30rem ;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow:(10px 10px 10px black);
+  }
   .logo-container {
-      margin-left: 3rem;
-    
+    margin-left: 2rem;
   }
   .logo {
     filter: drop-shadow(5px 5px 4px black);
@@ -38,17 +42,11 @@ a {
   .logo:hover {
     transform: translateY(-3px);
   }
-
-  .r-title h1{ 
-      padding-left:23rem;
-      font-size: 3rem;
-      color: white;
-  }
   
   .menu {
     display: flex;
     list-style: none;
-    gap: 3rem;
+    gap: 4rem;
     padding: 1rem;
     margin-right: 4rem;
   }
@@ -64,6 +62,7 @@ a {
   .list-item:hover {
     transform: translateY(-3px);
   }
+
 footer {
     background-color: #0d0402;
     background-image: url("../images/coffee-beans.svg");
