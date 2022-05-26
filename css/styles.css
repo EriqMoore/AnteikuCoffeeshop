@@ -366,7 +366,7 @@ hr {
 
 footer {
   background-color: #0d0402;
-  background-image: url("/images/coffee-beans.svg");
+  background-image: url("../images/coffee-beans.svg");
   box-shadow: 10px 10px px black;
 }
 #footer-container {
