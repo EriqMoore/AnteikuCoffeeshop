@@ -451,6 +451,11 @@ footer {
 
 }
 @media only screen and (max-width: 400px){
+  header {
+   
+    gap: 6rem;
+    
+}
   #fname, #lname, #email, #phone{
      
     width: 15rem;
