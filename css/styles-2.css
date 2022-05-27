@@ -62,6 +62,7 @@ a {
   .logo {
     filter: drop-shadow(5px 5px 4px black);
     transition: 0.3s;
+    width: 9rem;
   }
   .logo:hover {
     transform: translateY(-3px);
