@@ -99,7 +99,7 @@ a {
     background-size: cover;
     filter: hue-rotate(15deg);
     background-repeat: no-repeat;
-    box-shadow: 10px 2px 10px black;
+    
     
     
   }
@@ -189,7 +189,7 @@ footer {
     color: white;
     justify-content: center;
     align-content: center;
-    gap: 10rem;
+    gap: 1rem;
     padding: 1.5rem;
   }
   #footer-container h4 {
@@ -444,6 +444,23 @@ footer {
   }
   #text-box{
     width: 22rem;
+    height: 10rem;
+  }
+
+}
+@media only screen and (max-width: 400px){
+  #fname, #lname, #email, #phone{
+     
+    width: 15rem;
+    height: 2rem;
+    padding: 1rem;
+    
+  }
+  .text-box-container{
+    padding-top: 2rem;
+  }
+  #text-box{
+    width: 15rem;
     height: 10rem;
   }
 
