@@ -20,11 +20,31 @@ a {
     padding: 1.5rem;
     background-color: #200c00;
     background-image: url("/images/coffee-beans.svg");
+  
   }
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .overlay {
+    display: none;
+  }
+  
+  .overlay-content {
+    display: none;
+  }
+  
+  .overlay a {
+    display: none;
+  }
+  
+  .hb {
+    display: none;
+  }
+  
+  .close-btn {
+    font-size: 30px;
   }
   .r-title{
     padding-left:10rem ;
@@ -214,3 +234,201 @@ footer {
     filter: drop-shadow(10px 5px 4px black);
   }
   
+  @media only screen and (max-width: 1420px){
+    .r-title{
+      padding-left:8rem ;
+      
+      
+    }
+    .menu {
+      margin-right: 2rem;
+    }
+    form{
+      padding: 5.5rem 1rem ;
+      
+      
+      
+    }
+  }
+
+  @media only screen and (max-width: 1125px){
+    .input-1-2, .input-3-4{
+     
+      padding: .5rem 0rem;
+      
+      
+    }
+
+  }
+
+  @media only screen and (max-width: 970px){
+    form{
+      gap: 2rem;
+      padding: 2rem 3rem;
+    }
+    .input-1-2, .input-3-4{
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 3rem;
+      
+    }
+    #fname, #lname, #email, #phone{
+     
+      width: 30rem;
+      height: 2rem;
+      padding: 1rem;
+      
+    }
+    .text-box-container{
+      padding-top: 2rem;
+    }
+    #text-box{
+      width: 32rem;
+      height: 10rem;
+    }
+   
+
+  }
+  @media only screen and (max-width: 900px){
+  .r-title{
+    padding-left:3rem ;
+    font-size: 1rem;
+  }
+  #footer-container {
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+
+}
+
+@media only screen and (max-width: 725px){
+  header{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    align-content: center;
+  }
+  .logo-container {
+    margin-left: 0rem;
+  }
+  .r-title{
+    font-size: 1rem;
+    padding-top: .6rem;
+    padding-left: 2rem;
+    
+  }
+  .menu {
+    display: none;
+  }
+  #myNav {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0%;
+    background-color: #200c00;
+    opacity: 85%;
+    overflow-x: hidden;
+    transition: 0.1s;
+  }
+
+  .overlay-content {
+    display: block;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    display: block;
+    transition: 0.1s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #845f44;
+  }
+
+  .hb {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-top: 1rem;
+  }
+
+  .close-btn {
+    display: block;
+    font-size: 30px;
+  }
+
+  form{
+    gap: 2rem;
+    padding: 1rem 1rem;
+  }
+  #fname, #lname, #email, #phone{
+     
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+    
+  }
+  .text-box-container{
+    padding-top: 2rem;
+  }
+  #text-box{
+    width: 22rem;
+    height: 10rem;
+  }
+  #footer-container {
+    justify-content: space-between;
+  }
+
+  #footer-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  #footer-container h4 {
+    font-size: 0.9rem;
+  }
+
+  #footer-container a,
+  #footer-container p {
+    font-size: 0.8rem;
+  }
+  #footer-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+  }
+
+  #social-2 {
+    gap: 0.5rem;
+  }
+  .logo-foot-img {
+    width: 7rem;
+  }
+
+
+}
