@@ -5,7 +5,7 @@ This is a coffee shop landing page, designed by me, built using HTML, CSS, and J
 # Reason For Building
 
 To show I can build static sites with the means of going further to add more Javascript interaction if ever called upon.
-// Iv'e added a reservations page to the site that incorporants a functional form also.
+I've added a reservations page to the site that incorporants a functional form also.
 
 # Project Challenges
 
