@@ -19,7 +19,7 @@ a {
   header {
     padding: 1.5rem;
     background-color: #200c00;
-    background-image: url("/images/coffee-beans.svg");
+    background-image: url("../images/coffee-beans.svg");
   
   }
   nav {
