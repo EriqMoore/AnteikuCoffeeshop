@@ -307,7 +307,7 @@ footer {
   header{
     display: flex;
     justify-content: center;
-    gap: 15rem;
+    gap: 10rem;
     align-content: center;
   }
   .logo-container {
@@ -428,5 +428,23 @@ footer {
     width: 7rem;
   }
 
+
+}
+
+@media only screen and (max-width: 500px){
+  #fname, #lname, #email, #phone{
+     
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+    
+  }
+  .text-box-container{
+    padding-top: 2rem;
+  }
+  #text-box{
+    width: 22rem;
+    height: 10rem;
+  }
 
 }
