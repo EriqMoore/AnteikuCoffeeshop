@@ -95,7 +95,7 @@ a {
   }
 
   .sec-1{
-    background-image: url("../images/beans-1.png");
+    background-image: url("../images/beans-1.webp");
     background-size: cover;
     filter: hue-rotate(15deg);
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ a {
     background-color: #200c00;
     background-image: url("../images/coffee-beans.svg");
     background-size: 50%;
-    padding: 0rem 10rem ;
+    padding: 0rem 10rem 2rem 10rem ;
     display: flex;
     flex-direction: column;
     border-radius: .5rem;
