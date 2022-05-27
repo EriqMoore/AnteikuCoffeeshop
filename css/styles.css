@@ -52,6 +52,7 @@ nav {
   transition: 0.3s;
 }
 
+
 .list-item:hover {
   transform: translateY(-3px);
 }

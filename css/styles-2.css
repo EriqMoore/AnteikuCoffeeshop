@@ -27,7 +27,8 @@ a {
     align-items: center;
   }
   .r-title{
-    padding-left:30rem ;
+    padding-left:10rem ;
+    font-family:  "Josefin Sans", sans-serif !important ; 
     font-size: 1.5rem;
     color: white;
     text-shadow:(10px 10px 10px black);
@@ -48,7 +49,14 @@ a {
     list-style: none;
     gap: 4rem;
     padding: 1rem;
-    margin-right: 4rem;
+    margin-right: 5rem;
+  }
+  .res-item a{
+    color: #845f44;
+  }
+
+  .menu a:hover {
+    color: #845f44;
   }
   
   .list-item {
@@ -63,10 +71,95 @@ a {
     transform: translateY(-3px);
   }
 
+  .sec-1{
+    background-image: url("../images/beans-1.jpg");
+    background-size: cover;
+    filter: hue-rotate(15deg);
+    background-repeat: no-repeat;
+    box-shadow: 10px 2px 10px black;
+    
+    
+  }
+  
+  .form-container{
+    filter: hue-rotate(-15deg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem;
+    
+    
+  }
+  form{
+    background-color: #200c00;
+    background-image: url("../images/coffee-beans.svg");
+    background-size: 50%;
+    padding: 5.5rem 10rem ;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    gap: 3rem;
+    box-shadow: 5px 10px 10px black;
+
+    
+    
+  }
+
+  .input-1-2, .input-3-4{
+    display: flex;
+    padding: .5rem 5rem;
+    gap: 5rem;
+    
+  }
+  
+  #fname, #lname, #email, #phone{
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: .3rem;
+    font-size: 1.3rem;
+    width: 25rem;
+    height: 3rem;
+    box-shadow: 2px 3px 3px black;
+    border-color: transparent;
+    outline-color: transparent;
+  }
+  .text-box-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  #text-box{
+    font-size: 1.3rem;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: .3rem;
+    box-shadow: 2px 3px 3px black;
+
+  }
+
+  .sub-btn-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .sub-btn{
+    font-size: 1.3rem;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 1.2rem 4rem;
+    background-color: #845f44;
+    border-color: transparent;
+    border-radius: .2rem;
+    color: white;
+    box-shadow: 2px 3px 3px black;
+
+  }
+  .sub-btn:hover{
+    background-color:#361601;;
+
+  }
+
 footer {
     background-color: #0d0402;
     background-image: url("../images/coffee-beans.svg");
-    box-shadow: 10px 10px px black;
   }
   #footer-container {
     display: flex;
