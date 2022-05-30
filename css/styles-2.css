@@ -96,7 +96,7 @@ a {
   }
 
   .sec-1{
-    background-image: url("../images/beans-1.webp");
+    background-image: url("../images/beans-1.png");
     background-size: cover;
     filter: hue-rotate(15deg);
     background-repeat: no-repeat;
