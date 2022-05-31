@@ -62,7 +62,7 @@ a {
   .logo {
     filter: drop-shadow(5px 5px 4px black);
     transition: 0.3s;
-    width: 9rem;
+    
   }
   .logo:hover {
     transform: translateY(-3px);
@@ -313,7 +313,7 @@ footer {
     align-content: center;
   }
   .logo-container {
-    margin-left: 0rem;
+    margin-left: -2rem;
   }
   .r-title{
     font-size: 1.2rem;
