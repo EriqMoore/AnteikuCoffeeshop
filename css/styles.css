@@ -209,6 +209,7 @@ a {
 
 .pics:nth-child(-n+6):hover{
   transform: scale(1.1);
+  
 }
 
 .pic-5 {
