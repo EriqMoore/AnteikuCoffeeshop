@@ -229,6 +229,12 @@ hr {
 #lm {
   margin: 1rem 0 3rem 0;
 }
+.lm-box{
+  width: fit-content;
+  text-align: center;
+  margin-left:auto ;
+  margin-right: auto;
+}
 .lm-text {
   font-size: 1.2rem;
   text-transform: uppercase;
