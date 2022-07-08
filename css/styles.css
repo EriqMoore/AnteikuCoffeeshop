@@ -439,6 +439,13 @@ footer {
   filter: drop-shadow(10px 5px 4px black);
 }
 
+.copyright{
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
 @media only screen and (max-width: 1660px) {
   #sec-1 {
     gap: 1rem;
